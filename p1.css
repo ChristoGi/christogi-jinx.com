@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+font1{
+    color:blueviolet;
+    text-shadow: 5px 5px 5px rgb(0,0,0);
+    font-size: 50px;
+}
+font2{
+    color:whitesmoke;
+    text-shadow: 5px 5px 5px rgb(0,0,0);
+    font-size: 50px;
+}
+div{
+    background-color: rgb(0,0,0,0.5);
+    width: fit-content;
+    border-radius: 10px;
+}
+.div1{
+    background-color: rgba(230, 244, 255, 0.7);
+    width:fit-content;
+    padding: 1px;
+}
+.logbox{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align:center;
+    border-radius: 10px;
+}
+.logbox input[type="username"],.logbox input[type="password"]
+{
+    border: 3px solid rgb(106, 0, 255);
+    background-color: rgba(153, 0, 255, 0.224);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    width: 200px;
+    outline: none;
+    color:rgb(236, 212, 255);
+    border-radius: 5px;
+}
+.logbox input[type="username"]:hover,.logbox input[type="password"]:hover
+{
+    width: 230px;
+    height: 20px;
+}
+.logbox input[type="button"],.logbox input[type="reset"]
+{
+    border: 3px solid rgb(106, 0, 255);
+    background-color: rgba(0, 0, 0, 0.626);
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    width: 100px;
+    outline: none;
+    color:rgb(236, 212, 255);
+    border-radius: 5px;
+}
+.logbox input[type="button"]:hover,.logbox input[type="reset"]:hover
+{
+    background-color: rgb(61, 0, 127);
+    width: 105px;
+    height: 35px;
+}
